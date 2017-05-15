@@ -1,10 +1,10 @@
 package lessons.lesson_2;
 
-/**
+/*
  * Created by User on 5/14/2017.
  * 8. Переменной типа int передать результат деления двух short, умноженных на результат деления двух byte.
  */
-public class Test_hw_1_08 {
+public class Hw_08 {
     public static void main(String[] args) {
         byte b1 = 12;
         byte b2 = 4;
@@ -18,3 +18,4 @@ public class Test_hw_1_08 {
         System.out.println(i);
     }
 }
+

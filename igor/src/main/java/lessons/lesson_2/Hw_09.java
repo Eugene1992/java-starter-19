@@ -8,8 +8,9 @@ public class Hw_09 {
     public static void main(String[] args) {
         int cola = 2;
         int pepsi = 4;
+        int empty;
 
-        int empty = cola;
+        empty = cola;
         cola = pepsi;
         pepsi = empty;
         System.out.println(cola);
