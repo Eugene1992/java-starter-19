@@ -19,6 +19,5 @@ public class Hw_02_05 {
         System.out.println("i = " + i);
         System.out.println("l = " + l);
         System.out.println();
-
     }
 }
