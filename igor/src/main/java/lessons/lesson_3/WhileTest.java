@@ -8,7 +8,7 @@ public class WhileTest {
         int count = 1;
         while (count < 100) {
             System.out.println("count is: " + count);
-            count += 2;
+            count += 2; // count = count + 2;
         }
     }
 }
