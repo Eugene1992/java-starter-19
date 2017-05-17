@@ -8,7 +8,7 @@ public class DoWhile {
         int count = 100;
         do {
             System.out.println(count);
-            count--;
+            count -= 5;
 
         } while (count < 100);
 
