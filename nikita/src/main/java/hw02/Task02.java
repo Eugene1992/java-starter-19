@@ -8,7 +8,9 @@ import java.util.Scanner;
 public class Task02 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Please, enter first number: ");
         double x = scan.nextDouble();
+        System.out.println("Please, enter second number: ");
         double y = scan.nextDouble();
         double a;
         double b;
@@ -25,7 +27,7 @@ public class Task02 {
             b = 10 - y;
         }
 
-        if ( a > b) {
+        if (a > b) {
             System.out.println(y);
         } else {
             System.out.println(x);

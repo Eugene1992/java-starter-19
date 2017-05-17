@@ -7,10 +7,9 @@ public class DoWhile {
     public static void main(String[] args) {
         int count = 100;
         do {
-            System.out.println(count);
+            System.out.print(count + " ");
             count -= 5;
 
-        } while (count < 100);
-
+        } while (count >= 0);
     }
 }
