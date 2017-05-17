@@ -14,8 +14,7 @@ public class Task03 {
 
         if (x > y && x > z) {
             System.out.println(x);
-        }
-        if (y > z) {
+        } else if (y > z) {
             System.out.println(y);
         } else {
             System.out.println(z);

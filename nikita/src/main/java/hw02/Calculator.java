@@ -10,7 +10,7 @@ public class Calculator {
         Scanner scan = new Scanner(System.in);
         double a = scan.nextDouble();
         double b = scan.nextDouble();
-        double c;
+        double c = 0;
         System.out.println("Введите знак арифметической операции");
         String s = scan.next();
         switch (s) {

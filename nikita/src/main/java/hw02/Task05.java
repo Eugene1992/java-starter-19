@@ -18,8 +18,8 @@ public class Task05 {
 
         d = (double) (Math.pow(b , 2) - 4 * a * c);
         if (d > 0) {
-            x1 = -b + Math.sqrt(d) / 2 * a;
-            x2 = -b - Math.sqrt(d) / 2 * a;
+            x1 = -b + Math.sqrt(d) / 2.0 * a;
+            x2 = -b - Math.sqrt(d) / 2.0 * a;
 
             System.out.println("x1 = " + x1);
             System.out.println("x2 = " + x2);
