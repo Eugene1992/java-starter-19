@@ -1,4 +1,4 @@
-package lessons.lesson_4;
+package lessons.lesson_4.classWork;
 
 /**
  * Created by User on 17.05.2017.
