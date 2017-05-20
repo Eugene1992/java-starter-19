@@ -1,9 +1,9 @@
-package lessons.lesson_4;
+package lessons.lesson_4.classWork;
 
 /**
  * Created by User on 17.05.2017.
  */
-public class WhileTest {
+public class ClassWork_WhileTest {
     public static void main(String[] args) {
         int count = 1;
         while (count < 100) {

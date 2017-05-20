@@ -1,4 +1,4 @@
-package lessons.lesoon3;
+package lessons.myTests.lesoon3;
 
 /**
  * Created by User on 5/15/2017.
