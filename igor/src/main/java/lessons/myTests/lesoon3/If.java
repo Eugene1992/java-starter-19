@@ -5,11 +5,8 @@ package lessons.myTests.lesoon3;
  */
 public class If {
     public static void main(String[] args) {
-        int k = 9;
-        int j;
-
-        if (k >= 0) {
-
+        for (int i = 1,j=2; i <= 5;j++, i *= 2) {
+            System.out.println(j);
         }
     }
 }
