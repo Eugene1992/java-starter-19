@@ -12,3 +12,7 @@ public class ClassWork_WhileTest {
         }
     }
 }
+/*
+* else if (alcLevel == 6) {
+                    System.out.println("slow down");
+                }*/
