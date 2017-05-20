@@ -9,10 +9,8 @@ public class HW_1 {
         for (int i = 1000; i < 10000; i += 3) {
             System.out.print(i + " ");
         }
-        System.out.println();
-        System.out.println();
 
-        System.out.println("Version #2");
+        System.out.println("\n\nVersion #2");
         int a = 1000;
         while (a < 10000) {
             System.out.print(a + " ");

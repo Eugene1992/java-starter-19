@@ -15,11 +15,11 @@ public class HW_3 {
         System.out.println();
 
         System.out.println("Version #2 (do while)");
-        int b = 95;
+        int b = 90;
         do {
-            b -= 5;
             System.out.print(b + " ");
-        } while (b >= 5);
+            b -= 5;
+        } while (b >= 0);
         System.out.println();
         System.out.println();
 

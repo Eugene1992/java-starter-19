@@ -6,7 +6,7 @@ package hw03;
 public class Program_1 {
     public static void main(String[] args) {
         int count = 1000;
-        while (count < 1100) {
+        while (count < 10000) {
             System.out.println(count);
             count += 3;
         }

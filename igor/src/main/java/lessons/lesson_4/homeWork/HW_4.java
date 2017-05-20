@@ -15,11 +15,13 @@ public class HW_4 {
         System.out.println("Version #2 (For + if)");
         int j = 2;
         for (int i = 0; i < 20; i++) {
-            if (j >= 2) {
-                System.out.print(j + " ");
-                j *= 2;
-            }
+            System.out.print(j + " ");
+            j *= 2;
+        }
+
+        System.out.println("\nVersion #3");
+        for (int i = 2; i <= 1048576; i *= 2) {
+            System.out.print(i + " ");
         }
     }
 }
-// TODO: 19.05.2017 як перенести рядок, коротше ніж "САУТ"?

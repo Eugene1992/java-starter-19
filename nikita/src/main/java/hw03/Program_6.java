@@ -8,13 +8,23 @@ import java.util.Scanner;
 public class Program_6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        int b = 0;
-        System.out.println("Введите систему исчеления:");
-        String s = scan.next();
-        switch (s) {
+        System.out.println("Введите число:");
+        int num = scan.nextInt();
+        String res = "";
+        System.out.println("Введите систему исчеления:\n1) Bin\n2) Oct\n3) Hex");
+        String numSys = scan.next();
+
+        switch (numSys) {
             case "Bin":
+                /*while (num > 0) {
+                    res = num % 2 + res;
+                    num = num / 2;
+                }*/
+                for (; num > 0; num = num / 2) {
+                    res = num % 2 + res;
+                }
                 break;
+
             case "Oct":
                 break;
             case "Hex":
@@ -23,6 +33,6 @@ public class Program_6 {
                 System.out.println("Ошибка ввода!");
                 break;
         }
-        System.out.println(s);
+        System.out.println(res);
     }
 }
