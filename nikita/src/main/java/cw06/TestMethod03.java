@@ -5,15 +5,15 @@ package cw06;
  */
 public class TestMethod03 {
     public static void main (String [] args) {
-       int bin = numSys(47);
+       String result = numSys(47);
+       System.out.println(result);
     }
 
-    static int numSys (int a){
+    static String numSys (int a){
         String res = "";
         for (; a > 0; a = a / 2) {
             res = a % 2 + res;
         }
-        System.out.println(res);
-        return a;
+        return res;
     }
 }

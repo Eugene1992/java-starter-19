@@ -13,4 +13,8 @@ public class Methods {
     static void human(String name, int age) {
         System.out.println("My name is " + name + "! I'am " + age + " years old.");
     }
+
+    static int getSum(int from, int to) {
+return 0;
+    }
 }
