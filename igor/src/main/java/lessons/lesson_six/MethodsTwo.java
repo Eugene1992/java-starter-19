@@ -5,12 +5,16 @@ package lessons.lesson_six;
  */
 public class MethodsTwo {
     public static void main(String[] args) {
-        System.out.println(Literals(4,5));
+        System.out.println(literals(4, 5));
     }
 
-    public static int Literals(int a, int b) {
-        int c = a + b;
-        return c;
+    public static int literals(int a, int b) {
+        int sum = 3;
+        for (a = 0; a < 5; a++) {
+            System.out.println(sum = a + b);
+        }
+
+        return sum;
     }
 
 }
