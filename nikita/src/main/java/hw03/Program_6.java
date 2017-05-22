@@ -26,8 +26,14 @@ public class Program_6 {
                 break;
 
             case "Oct":
+                for (; num > 0; num = num / 8) {
+                    res = num % 8 + res;
+                }
                 break;
             case "Hex":
+                for (; num > 0; num = num / 16) {
+                    res = num % 16 + res;
+                }
                 break;
             default:
                 System.out.println("Ошибка ввода!");
