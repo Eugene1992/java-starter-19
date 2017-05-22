@@ -6,6 +6,6 @@ package lessons.lesson_five.home_work;
  */
 public class NotHappyNumbers {
     public static void main(String[] args) {
-
+//
     }
 }
