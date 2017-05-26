@@ -5,15 +5,21 @@ package cw07;
  */
 public class MethodsArrays {
     public static void main(String[] args) {
-        int numbMethod = arrMethod(5);
+        int[] arr = {1, 2, 4, 1, 5, 1, 1};
+
+        System.out.println("1 - " + arrMethod(arr, 1) + " counts");
+        System.out.println("2 - " + arrMethod(arr, 2) + " counts");
+        System.out.println("4 - " + arrMethod(arr, 4) + " counts");
     }
 
-    static int arrMethod(int number) {
-        int[] arr = {2, 5, 8, 12, 24};
-        for(int i = 0; i < number; i++) {
-            System.out.println(number);
+    static int arrMethod(int[] arr, int number) {
+        int count = 0;
+        for(int i = 0; i < arr.length; i++) {
+            if (arr[i] == number) {
+                count++;
+            }
         }
-        return number;
+        return count;
     }
 
 }
