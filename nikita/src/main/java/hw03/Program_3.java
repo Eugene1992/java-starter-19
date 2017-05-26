@@ -5,7 +5,10 @@ package hw03;
  */
 public class Program_3 {
     public static void main(String[] args) {
-        int count = 90;
+        crateProg3(90);
+    }
+
+    static void crateProg3(int count) {
         do {
             System.out.print(count + " ");
             count -= 5;

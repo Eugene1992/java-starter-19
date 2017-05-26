@@ -5,7 +5,10 @@ package hw03;
  */
 public class Program_1 {
     public static void main(String[] args) {
-        int count = 1000;
+        createProg1(1000);
+    }
+
+    static void createProg1(int count) {
         while (count < 10000) {
             System.out.println(count);
             count += 3;

@@ -5,11 +5,11 @@ package hw03;
  */
 public class Program_5 {
     public static void main(String[] args) {
-        int prev1 = 0;
-        int prev2 = 1;
+        createProg5(0, 1, 0, 0);
+    }
+
+    static void createProg5(int prev1 , int prev2 , int c , int newElem){
         System.out.print(prev1 + " " + prev2);
-        int c = 0;
-        int newElem = 0;
         while (c < 20) {
             newElem = prev1 + prev2;
             prev1 = prev2;

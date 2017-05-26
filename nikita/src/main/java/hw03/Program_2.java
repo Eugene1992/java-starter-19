@@ -5,12 +5,15 @@ package hw03;
  */
 public class Program_2 {
     public static void main(String[] args) {
-        int count = 1;
+        createProg2(1);
+
+    }
+    static void createProg2(int count) {
         do {
             System.out.print(count + " ");
             count += 2;
         }
         while (count < 110) ;
-
     }
+
 }

@@ -5,8 +5,11 @@ package hw03;
  */
 public class Program_4 {
     public static void main(String[] args) {
+        createProg4(2);
+    }
 
-        for (int count = 2; count < 2000000; count *= 2){
+    static void createProg4(int count) {
+        for (; count < 2000000; count *= 2){
             System.out.print(count + " ");
         }
     }
