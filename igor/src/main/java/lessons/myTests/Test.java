@@ -31,7 +31,6 @@ public class Test {
             } else {
                 System.out.println("I don't understand you...");
                 System.out.println("Choose minus (-) or pus(+) for your answer");
-
             }
         }
         System.out.println("End");
