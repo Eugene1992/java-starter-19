@@ -22,19 +22,20 @@ public class Arrays {
         System.out.print(arr[5] + " ");
         System.out.println(arr[6] + " ");
 
-        for(int i = 0; i < arr.length; i++) {
+        for(int i = arr.length - 1; i > 0; i--) {
             System.out.print(arr[i] + " ");
         }
 
-        sumArr(arr);
+        int newArray = sumArr(arr);
+        System.out.println(newArray);
 
     }
 
-    static void sumArr(int[] arr){
+    static int sumArr(int[] arr){
+        int sum = 0;
         for(int i = 0; i < arr.length; i++){
-            int sum = 0;
-            sum = i + sum;
-            System.out.println(sum);
+            sum = arr[i] + sum;
         }
+        return sum;
     }
 }
