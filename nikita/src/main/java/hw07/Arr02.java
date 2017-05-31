@@ -7,6 +7,7 @@ package hw07;
 
 public class Arr02 {
     public static void main(String[] args) {
+//                   0  1  2  3  4  5  6  7
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         printBack(arr);
 

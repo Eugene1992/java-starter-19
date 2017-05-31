@@ -8,6 +8,7 @@ public class Arr01 {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
 
         pairPrint(arr);
+        int k = 10;
 
     }
 
