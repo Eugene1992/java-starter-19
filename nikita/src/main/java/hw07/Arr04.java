@@ -12,7 +12,7 @@ public class Arr04 {
     }
 
     static void firstHalfBack(int[] arr) {
-        for (int i = (arr.length / 2) - 1; i >= 0; i--) {
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
             System.out.println(arr[i]);
         }
 
