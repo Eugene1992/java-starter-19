@@ -18,25 +18,36 @@ public class Arr07 {
     }
 
     static void printBiggestAverageHalf(int[] arr){
+        double half1 = findAverageFirst(arr);
+        double half2 = findAverageSecond(arr);
+        if(half1 > half2){
+            System.out.println(half1);
+        }else {
+            System.out.println(half2);
+        }
+    }
+
+    static double findAverageFirst(int[] arr){
         double sum1 = 0;
-        double sum2 = 0;
         double avg1 = 0;
-        double avg2 = 0;
         for (int i = 0; i < arr.length / 2; i++) {
             sum1 = arr[i] + sum1;
         }
         avg1 = sum1 / (arr.length / 2);
+        System.out.println(arr.length / 2);
+        return avg1;
+       }
 
-       for (int i = arr.length / 2; i < arr.length; i++) {
+
+    static double findAverageSecond(int[] arr) {
+        double sum2 = 0;
+        double avg2 = 0;
+        for (int i = arr.length / 2; i < arr.length; i++) {
             sum2 = arr[i] + sum2;
         }
         avg2 = sum2 / (arr.length / 2);
-
-       if(avg1 > avg2){
-           System.out.println(avg1);
-       } else {
-           System.out.println(avg2);
-       }
+        System.out.println(arr.length / 2);
+        return avg2;
     }
 
     static void invertArr(int[]arr){
