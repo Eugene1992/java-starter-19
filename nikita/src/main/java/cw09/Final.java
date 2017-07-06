@@ -18,7 +18,7 @@ public class Final {
             attempts++;
             if (num == rand) {
                 System.out.println("You're lucky!");
-                System.out.println("You guessed right from the " + attempts + " attempts");
+                System.out.println("You guessed right from the " + attempts + " attempt");
                 break;
             } else {
                 System.out.println("Sorry, you're wrong!");
